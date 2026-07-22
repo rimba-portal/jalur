@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Rimba\Menu\Services;
 
-use Rimba\Versioning\Enums\ContentType;
-use Rimba\Menu\Models\Menu;
-use Rimba\Versioning\Models\Version;
 use Illuminate\Http\RedirectResponse;
+use Rimba\Menu\Models\Menu;
+use Rimba\Versioning\Enums\ContentType;
+use Rimba\Versioning\Models\Version;
 
 class MenuResolver
 {

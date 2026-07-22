@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Rimba\Menu\Models;
 
-use Rimba\Versioning\Traits\HasVersions;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
+use Rimba\Versioning\Traits\HasVersions;
 
 #[Fillable([
     'category',

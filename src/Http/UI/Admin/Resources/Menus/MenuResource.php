@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rimba\Menu\Http\UI\Admin\Resources\Menus;
 
 use BackedEnum;
-use Rimba\Versioning\Traits\ResourceHasVersionRelations;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
@@ -18,6 +17,7 @@ use Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuForm;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuInfolist;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\Tables\MenusTable;
 use Rimba\Menu\Models\Menu;
+use Rimba\Versioning\Traits\ResourceHasVersionRelations;
 
 class MenuResource extends Resource
 {
