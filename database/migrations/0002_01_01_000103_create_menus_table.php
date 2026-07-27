@@ -8,42 +8,37 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('menus', function (Blueprint $table): void {
-            $table->id();
+      Schema::create('menus', function (Blueprint $table) {
+    $table->id();
 
-            // Enterprise taxonomy
-            $table->string('category');          // Enterprise, People, Market, etc.
-            $table->string('group')->nullable(); // Procurement, Payroll, Documents, etc.
+    $table->string('category');
+    $table->string('group')->nullable();
 
-            // Display
-            $table->string('name');
-            $table->string('slug')->unique();
-            $table->string('description')->nullable();
+    $table->string('name');
+    $table->string('slug')->unique();
+    $table->string('description')->nullable();
 
-            $table->string('icon')->nullable();
-            $table->string('color')->nullable();
+    $table->string('icon')->nullable();
+    $table->string('color')->nullable();
 
-            // Navigation hierarchy
-            $table->foreignId('parent_id')->nullable()->constrained('menus')->nullOnDelete();
+    $table->foreignId('parent_id')->nullable();
+    $table->foreign('parent_id')->references('id')->on('menus');
 
-            // Access
-            $table->string('permission')->nullable();
-            $table->string('panel')->nullable();
+    $table->string('permission')->nullable();
+    $table->string('panel')->nullable();
 
-            // Behaviour
-            $table->boolean('is_visible')->default(true);
-            $table->boolean('is_active')->default(true);
+    $table->integer('sort')->default(0);
 
-            // Ordering
-            $table->unsignedInteger('sort')->default(0);
+    $table->boolean('is_active')->default(true);
 
-            $table->timestamps();
+    $table->json('attributes')->nullable();
 
-            $table->index('category');
-            $table->index('group');
-            $table->index('parent_id');
-            $table->index('sort');
-        });
+    $table->timestamps();
+
+    $table->index(['category', 'group']);
+    $table->index('parent_id');
+    $table->index('sort');
+});
     }
 
     public function down(): void
