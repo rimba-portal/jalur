@@ -10,6 +10,7 @@ use Rimba\Base\Services\BitesServiceProvider;
 class MenuServiceProvider extends BitesServiceProvider
 {
     protected string $configFile = __DIR__ . '/../config/bites.php';
+    protected string $iconsPath = __DIR__ . '/../resources/svg';
 
     protected function bootPackage(): void
     {

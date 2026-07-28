@@ -18,7 +18,7 @@ class MenuResource extends Resource
 
     protected static string|UnitEnum|null $navigationGroup = 'Catalog';
 
-    protected static string|BackedEnum|null $navigationIcon = 'rimba-s-menu';
+    protected static string|BackedEnum|null $navigationIcon = 'bites-s-menu';
 
     protected static ?string $navigationLabel = 'Menu';
 
