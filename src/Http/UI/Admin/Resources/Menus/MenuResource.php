@@ -17,7 +17,7 @@ use Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuForm;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuInfolist;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\Tables\MenusTable;
 use Rimba\Menu\Models\Menu;
-use Rimba\Versioning\Traits\ResourceHasVersionRelations;
+use Rimba\Versioning\Http\UI\Admin\Resources\Versions\RelationManagers\VersionsRelationManager;
 
 class MenuResource extends Resource
 {
@@ -47,7 +47,7 @@ class MenuResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
+            VersionsRelationManager::class,
         ];
     }
 

@@ -6,9 +6,8 @@ namespace Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages;
 
 use Filament\Resources\Pages\ListRecords;
 use Filament\Schemas\Components\Tabs\Tab;
-use Illuminate\Database\Eloquent\Builder;
+use Rimba\Menu\Enums\MenuCategory;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\MenuResource;
-use Rimba\Menu\Models\Menu;
 
 class ListMenus extends ListRecords
 {
@@ -20,20 +19,17 @@ class ListMenus extends ListRecords
 
     public function getTabs(): array
     {
-        $categories = Menu::query()
-            ->select('category')
-            ->distinct()
-            ->pluck('category')
-            ->filter() // remove nulls if needed
-            ->toArray();
+        $tabs = [
+            'all' => Tab::make('All'),
+        ];
 
-        $tabs = [];
-
-        $tabs['all'] = Tab::make(); // default tab showing all records
-
-        foreach ($categories as $category) {
-            $tabs[$category] = Tab::make()
-                ->modifyQueryUsing(fn (Builder $query) => $query->where('category', $category));
+        foreach (MenuCategory::cases() as $category) {
+            $tabs[$category->value] = Tab::make($category->label())
+                ->icon($category->icon())
+                ->modifyQueryUsing(fn ($query) => $query->whereRaw(
+                    'LOWER(category) = ?',
+                    [strtolower($category->value)]
+                ));
         }
 
         return $tabs;

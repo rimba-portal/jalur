@@ -28,7 +28,7 @@ class MenusTable
                     ->label('Current Version')
                     ->getStateUsing(function ($record) {
                         // This safely checks your trait method and extracts the column you want
-                        return $record->currentVersion()?->version_number ?? 'No Version';
+                        return $record->currentVersion()?->version ?? '-';
                     }),
                 TextColumn::make('slug')
                     ->searchable(),
