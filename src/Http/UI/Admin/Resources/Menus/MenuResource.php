@@ -7,7 +7,6 @@ namespace Rimba\Menu\Http\UI\Admin\Resources\Menus;
 use BackedEnum;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
-use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\CreateMenu;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\EditMenu;
@@ -18,14 +17,15 @@ use Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuInfolist;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\Tables\MenusTable;
 use Rimba\Menu\Models\Menu;
 use Rimba\Versioning\Http\UI\Admin\Resources\Versions\RelationManagers\VersionsRelationManager;
+use UnitEnum;
 
 class MenuResource extends Resource
 {
-    use ResourceHasVersionRelations;
-
     protected static ?string $model = Menu::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|UnitEnum|null $navigationGroup = 'Versioning';
+
+    protected static string|BackedEnum|null $navigationIcon = 'bites-s-menu';
 
     protected static ?string $recordTitleAttribute = 'name';
 
