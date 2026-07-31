@@ -8,6 +8,7 @@ use Filament\Resources\Pages\ListRecords;
 use Filament\Schemas\Components\Tabs\Tab;
 use Rimba\Menu\Enums\MenuCategory;
 use Rimba\Menu\Http\UI\Admin\Resources\Menus\MenuResource;
+use Filament\Actions\CreateAction;
 
 class ListMenus extends ListRecords
 {
@@ -16,7 +17,13 @@ class ListMenus extends ListRecords
     protected static ?string $title = 'Menu';
 
     protected ?string $subheading = 'Catalog of all company links.';
-
+    
+    protected function getHeaderActions(): array
+    {
+        return [
+            CreateAction::make(),
+        ];
+    }
     public function getTabs(): array
     {
         $tabs = [
@@ -26,7 +33,7 @@ class ListMenus extends ListRecords
         foreach (MenuCategory::cases() as $category) {
             $tabs[$category->value] = Tab::make($category->label())
                 ->icon($category->icon())
-                ->modifyQueryUsing(fn ($query) => $query->whereRaw(
+                ->modifyQueryUsing(fn($query) => $query->whereRaw(
                     'LOWER(category) = ?',
                     [strtolower($category->value)]
                 ));
