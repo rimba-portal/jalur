@@ -18,7 +18,7 @@ class MenusTable
     public static function configure(Table $table): Table
     {
         return $table
-            ->modifyQueryUsing(fn ($query) => $query->has('versions'))
+            ->modifyQueryUsing(fn($query) => $query->has('versions'))
             ->columns([
                 Split::make([
                     ImageColumn::make('icon')
@@ -43,10 +43,12 @@ class MenusTable
                 'xl' => 4,
             ])
             ->recordUrl(
-                fn (Model $model): string => app(MenuResolver::class)->url($model) ?? '#'
+                fn(Model $model): string =>
+                $model->currentVersion()?->url() ?? '#'
             )
             ->openRecordUrlInNewTab(
-                fn (Model $model): bool => app(MenuResolver::class)->openInNewTab($model)
+                fn(Model $model): bool =>
+                $model->currentVersion()?->openInNewTab() ?? false
             )
             ->filters([])
             ->toolbarActions([]);
