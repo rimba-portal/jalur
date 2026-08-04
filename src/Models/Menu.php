@@ -34,4 +34,23 @@ class Menu extends Model
     protected $attributes = [
         'is_active' => false,
     ];
+
+    public static function seedMappings(): array
+    {
+        return [
+
+            'category' => fn ($value): array => [
+                'category' => str($value)
+                    ->slug()
+                    ->value(),
+            ],
+
+            'group' => fn ($value): array => [
+                'group' => str($value)
+                    ->slug()
+                    ->value(),
+            ],
+
+        ];
+    }
 }

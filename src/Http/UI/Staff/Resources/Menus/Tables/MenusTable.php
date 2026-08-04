@@ -11,14 +11,13 @@ use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Model;
-use Rimba\Menu\Services\MenuResolver;
 
 class MenusTable
 {
     public static function configure(Table $table): Table
     {
         return $table
-            ->modifyQueryUsing(fn($query) => $query->has('versions'))
+            ->modifyQueryUsing(fn ($query) => $query->has('versions'))
             ->columns([
                 Split::make([
                     ImageColumn::make('icon')
@@ -43,12 +42,10 @@ class MenusTable
                 'xl' => 4,
             ])
             ->recordUrl(
-                fn(Model $model): string =>
-                $model->currentVersion()?->url() ?? '#'
+                fn (Model $model): string => $model->currentVersion()?->url() ?? '#'
             )
             ->openRecordUrlInNewTab(
-                fn(Model $model): bool =>
-                $model->currentVersion()?->openInNewTab() ?? false
+                fn (Model $model): bool => $model->currentVersion()?->openInNewTab() ?? false
             )
             ->filters([])
             ->toolbarActions([]);

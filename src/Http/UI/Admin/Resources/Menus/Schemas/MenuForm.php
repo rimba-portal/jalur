@@ -4,9 +4,13 @@ declare(strict_types=1);
 
 namespace Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas;
 
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
+use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
+use Rimba\Menu\Enums\MenuCategory;
+use Rimba\Menu\Enums\MenuGroup;
 
 class MenuForm
 {
@@ -14,9 +18,25 @@ class MenuForm
     {
         return $schema
             ->components([
-                TextInput::make('category')
+                Select::make('category')
+                    ->options(MenuCategory::options())
+                    ->required()
+                    ->live(),
+
+                Select::make('group')
+                    ->options(function (Get $get): array {
+
+                        $category = $get('category');
+
+                        if (! $category) {
+                            return [];
+                        }
+
+                        return MenuGroup::optionsForCategory(
+                            MenuCategory::from($category)
+                        );
+                    })
                     ->required(),
-                TextInput::make('group'),
                 TextInput::make('name')
                     ->required(),
                 TextInput::make('slug')
