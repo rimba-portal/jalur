@@ -1,0 +1,616 @@
+{
+    "menus": [
+        { "category": "Technology", "group": "ApplicationManagement", "name": "email", "description": null, "slug": "legacy-my-work-space-my-work-space-email", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://outlook.office.com/mail/inbox/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ApplicationManagement", "name": "My Tickets", "description": null, "slug": "legacy-my-work-space-my-work-space-my-tickets", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkortechprod.service-now.com/amkor?sysparm_stack=no", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ApplicationManagement", "name": "i-Workflow", "description": null, "slug": "legacy-my-work-space-my-work-space-i-workflow", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://iworkflows.amkor.com/iworkflow/3/index.php/go/drawer#", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ApplicationManagement", "name": "SAP Portal", "description": null, "slug": "legacy-my-work-space-my-work-space-sap-portal", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://sap.amkor.com/irj/portal", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ApplicationManagement", "name": "Mean DCC", "description": null, "slug": "legacy-my-work-space-my-work-space-mean-dcc", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://10.141.12.120/dcc/#/v1.0/login", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "InformationManagement", "name": "SAP FICO", "description": null, "slug": "legacy-my-work-space-dept-links-sap-fico", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": "Dept. Links", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/SAP_FICO", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "InformationManagement", "name": "Financial Report", "description": null, "slug": "legacy-my-work-space-dept-links-financial-report", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": "Dept. Links", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/OFS/index.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "InformationManagement", "name": "PSI System", "description": null, "slug": "legacy-my-work-space-dept-links-psi-system", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": "Dept. Links", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/psi/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "InformationManagement", "name": "VMI System", "description": null, "slug": "legacy-my-work-space-dept-links-vmi-system", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": "Dept. Links", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/vmi/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "InformationManagement", "name": "Procurement & Logistics", "description": null, "slug": "legacy-my-work-space-dept-links-procurement-and-logistics", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": "Dept. Links", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/psi/indexpu.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "InformationManagement", "name": "Facility Department", "description": null, "slug": "legacy-my-work-space-dept-links-facility-department", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": "Dept. Links", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/dept/fd/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "InformationManagement", "name": "Maintenance Engineering", "description": null, "slug": "legacy-my-work-space-dept-links-maintenance-engineering", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": "Dept. Links", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/dept/ed/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ApplicationManagement", "name": "My SharePoint", "description": null, "slug": "legacy-my-work-space-my-work-space-my-sharepoint", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkor.sharepoint.com/sites/my", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ApplicationManagement", "name": "CCR", "description": null, "slug": "legacy-my-work-space-my-work-space-ccr", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://domino.amkor.com/car/ccr.nsf/grid?openform&ds=DocumentsOpen", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ApplicationManagement", "name": "Weaver e-cology", "description": null, "slug": "legacy-my-work-space-my-work-space-weaver-e-cology", "is_active": true, "sort": 8, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Work Space", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://10.40.3.131/wui/index.html", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "WIP Status", "description": null, "slug": "legacy-production-dashboard-production-dashboard-wip-status", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Production Dashboard", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/wipstatus/iflexi/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "Aged Lot", "description": null, "slug": "legacy-production-dashboard-production-dashboard-aged-lot", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Production Dashboard", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/search_AgedWIP.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "MES Instance Manager", "description": null, "slug": "legacy-production-dashboard-production-dashboard-mes-instance-manager", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Production Dashboard", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/wipstatus/iflexi/MES_InstanceManagerMonitoring_daily.asp?DateStart=2%2F8%2F2025&DateEnd=2%2F14%2F2025&DBLine=", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "MTBA Dashboard", "description": null, "slug": "legacy-production-dashboard-production-dashboard-mtba-dashboard", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Production Dashboard", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://app.powerbi.com/reportEmbed?reportId=6de69c66-efc1-4a5f-96cf-1426d2c5f81d&autoAuth=true&ctid=423f5ac8-ab26-4dfa-9ebf-59d3def9fbd0", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "ATM PowerBI Analysis Report", "description": null, "slug": "legacy-production-dashboard-production-dashboard-atm-powerbi-analysis-report", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Production Dashboard", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/PowerBIReports.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "HRMS", "description": null, "slug": "legacy-employees-portal-employees-portal-hrms", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://mwbizapp04.my.ds.amkor.com/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Leave Application", "description": null, "slug": "legacy-employees-portal-employees-portal-leave-application", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://mwbizapp04.my.ds.amkor.com/LMS/LeaveApplication", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Payslip", "description": null, "slug": "legacy-employees-portal-employees-portal-payslip", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://mwbizapp04.my.ds.amkor.com/RC/MyPayslip", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Medical Claims Application", "description": null, "slug": "legacy-employees-portal-my-claims-medical-claims-application", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "My Claims", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://10.40.3.131/wui/index.html?#/main/workflow/add?menuIds=1,12", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Travel Claims", "description": null, "slug": "legacy-employees-portal-my-claims-travel-claims", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "My Claims", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "notes://MWLNSAPP02/482569A6000980FB", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Mileage Claims", "description": null, "slug": "legacy-employees-portal-my-claims-mileage-claims", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "My Claims", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://mwbizapp04.my.ds.amkor.com/CLAIM/Transaction/Create/Mileage%20Claim", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Entertainment Requisition (Internal)", "description": null, "slug": "legacy-employees-portal-my-claims-entertainment-requisition-internal", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "My Claims", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://mwbizapp04.my.ds.amkor.com/CLAIM/Transaction/Create/Entertainment%20Internal", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Entertainment Requisition (External)", "description": null, "slug": "legacy-employees-portal-my-claims-entertainment-requisition-external", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "My Claims", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://mwbizapp04.my.ds.amkor.com/CLAIM/Transaction/Create/Entertainment%20External", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Sympathy Gift Application", "description": null, "slug": "legacy-employees-portal-my-claims-sympathy-gift-application", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "My Claims", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://mwbizapp04.my.ds.amkor.com/CLAIM/Transaction/Create/Sympathy%20Gift", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "e-Coupon Balance", "description": null, "slug": "legacy-employees-portal-ecoupon-e-coupon-balance", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "eCoupon", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/e_coupon_balance.asp?eCEmpNo=153582&B1=", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "e-Coupon Statement", "description": null, "slug": "legacy-employees-portal-ecoupon-e-coupon-statement", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "eCoupon", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/e_coupon_statement.asp?EmpNo=153582&B1=&YYYYMM=", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "e-Coupon Entitlement", "description": null, "slug": "legacy-employees-portal-ecoupon-e-coupon-entitlement", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": "eCoupon", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/e_coupon_entitlement.asp?HisEmpNo=153582&B1=", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Personal Details", "description": null, "slug": "legacy-employees-portal-employees-portal-personal-details", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://performancemanager8.successfactors.com/sf/start?_s.crb=rxWuLR%252fIIFtesybxNKhVW%252bmYOywMFr26VKillV%252bZg0M%253d#Shell-home", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Employee Handbook (BI)", "description": null, "slug": "legacy-employees-portal-employees-portal-employee-handbook-bi", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/Documents/HR/ATM_Employee_Handbook_English_2025-rev6_latest.pdf", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Employee Handbook (BM)", "description": null, "slug": "legacy-employees-portal-employees-portal-employee-handbook-bm", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/Documents/HR/ATM_Employee_Handbook_Malay_Version.pdf", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "HR Forms", "description": null, "slug": "legacy-employees-portal-employees-portal-hr-forms", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/hr_forms.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Car Sticker", "description": null, "slug": "legacy-employees-portal-employees-portal-car-sticker", "is_active": true, "sort": 8, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "notes://MWLNSAPP02/4825785A002E878A", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Lodge Application", "description": null, "slug": "legacy-employees-portal-employees-portal-lodge-application", "is_active": true, "sort": 9, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "notes://MWLNSAPP02/48256B89001C3DE9", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "WA Application", "description": null, "slug": "legacy-employees-portal-employees-portal-wa-application", "is_active": true, "sort": 10, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mwbizapp03.my.ds.amkor.com/wa/adminlogin.wp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "Emergency Attendance", "description": null, "slug": "legacy-employees-portal-employees-portal-emergency-attendance", "is_active": true, "sort": 11, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkor-atm.com/attendanceMonitor", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "VMS", "description": null, "slug": "legacy-employees-portal-employees-portal-vms", "is_active": true, "sort": 12, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mwbizapp04:60003/Account/Login?ReturnUrl=%2f", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "EmployeeManagement", "name": "ATM Organization", "description": null, "slug": "legacy-employees-portal-employees-portal-atm-organization", "is_active": true, "sort": 13, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Employees Portal", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://performancemanager8.successfactors.com/sf/orgchart?selected_user=158132&_s.crb=QqVVhwxssrvsel%2bluFJ4qDAnoqc00EWbYe0vfLlJmGU%3d", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "Standards", "name": "ISO14001", "description": null, "slug": "legacy-library-iso-document-iso14001", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "ISO Document", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=iso14001", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "Standards", "name": "ISO9001", "description": null, "slug": "legacy-library-iso-document-iso9001", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "ISO Document", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=iso9001", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Employee Handbook (BI)", "description": null, "slug": "legacy-library-hr-documents-employee-handbook-bi", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/Documents/HR/ATM_Employee_Handbook_English_2025-rev6_latest.pdf", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Employee Handbook (BM)", "description": null, "slug": "legacy-library-hr-documents-employee-handbook-bm", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/Documents/HR/ATM_Employee_Handbook_Malay_Version.pdf", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Onboarding Briefing Material", "description": null, "slug": "legacy-library-hr-documents-onboarding-briefing-material", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/brief.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Memo", "description": null, "slug": "legacy-library-hr-documents-memo", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/event.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Amkor Code of business conduct (BI)", "description": null, "slug": "legacy-library-hr-documents-amkor-code-of-business-conduct-bi", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=Bconduct-Eng", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Amkor Code of business conduct (BM)", "description": null, "slug": "legacy-library-hr-documents-amkor-code-of-business-conduct-bm", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=Bconduct-Malay", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "RBA Code (BI)", "description": null, "slug": "legacy-library-hr-documents-rba-code-bi", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=RBA-Eng", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "RBA Code (BM)", "description": null, "slug": "legacy-library-hr-documents-rba-code-bm", "is_active": true, "sort": 8, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=RBA-Malay", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Labor & Ethics Policy", "description": null, "slug": "legacy-library-hr-documents-labor-and-ethics-policy", "is_active": true, "sort": 9, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=Labour-policy", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Personal Data Protection Notice (BI)", "description": null, "slug": "legacy-library-hr-documents-personal-data-protection-notice-bi", "is_active": true, "sort": 10, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=PDPA-Eng", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Personal Data Protection Notice (BM)", "description": null, "slug": "legacy-library-hr-documents-personal-data-protection-notice-bm", "is_active": true, "sort": 11, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=PDPA-Malay", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Leave Application User Manual", "description": null, "slug": "legacy-library-hr-documents-leave-application-user-manual", "is_active": true, "sort": 12, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=Leave_Management", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "TAMS User Manual", "description": null, "slug": "legacy-library-hr-documents-tams-user-manual", "is_active": true, "sort": 13, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=TAMS", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "ATM Overview", "description": null, "slug": "legacy-library-hr-documents-atm-overview", "is_active": true, "sort": 14, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=ATMOverview", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Management Commitment to Trade Compliance (BI)", "description": null, "slug": "legacy-library-hr-documents-management-commitment-to-trade-compliance-bi", "is_active": true, "sort": 15, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=MCTC", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Management Commitment to Trade Compliance (BM)", "description": null, "slug": "legacy-library-hr-documents-management-commitment-to-trade-compliance-bm", "is_active": true, "sort": 16, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "HR Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=MCTC_M", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "EHS Legal Requirement", "description": null, "slug": "legacy-library-other-documents-ehs-legal-requirement", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "Other Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=EHSLegalRequirement", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Green Procurement", "description": null, "slug": "legacy-library-other-documents-green-procurement", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "Other Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=TEMGreenProcurement", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Laptop Take-Home Permission Request Form", "description": null, "slug": "legacy-library-it-documents-laptop-take-home-permission-request-form", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "IT Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DocViewer.asp?f=Laptop-Takehome", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "ATM IT Guidelines", "description": null, "slug": "legacy-library-it-documents-atm-it-guidelines", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "IT Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/IT_Guidelines.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Active User ID", "description": null, "slug": "legacy-library-it-documents-active-user-id", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "IT Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/Dept/it/active_users.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "Cyber Security Awareness", "description": null, "slug": "legacy-library-it-documents-cyber-security-awareness", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "IT Documents", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/CyberSecurityAwareness.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "Reports", "name": "Executive Dashboard", "description": null, "slug": "legacy-library-general-executive-dashboard", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "General", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/eDashBoard/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "Reports", "name": "Library System", "description": null, "slug": "legacy-library-general-library-system", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "General", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/Library/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "Reports", "name": "MES Manual", "description": null, "slug": "legacy-library-general-mes-manual", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "General", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/cqsmanual/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "DocumentManagement", "name": "DCC", "description": null, "slug": "legacy-library-operation-procedure-dcc", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Library", "legacy_subcat": "Operation Procedure", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "notes://MWLNSAPP02/4825777400122D05/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "Raw", "description": null, "slug": "legacy-operation-operation-raw", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/Raw.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "WIP", "description": null, "slug": "legacy-operation-operation-wip", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/MES_WIPStatus_Lot.asp?StdProcess=PK", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "LogisticsManagement", "name": "Shipment Data", "description": null, "slug": "legacy-operation-shipment-shipment-data", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Shipment", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/MES_ShipmentData.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "Shipment Summary", "description": null, "slug": "legacy-operation-operation-shipment-summary", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/MES_ShipmentSummary.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "Production Traceability PAX/AS400", "description": null, "slug": "legacy-operation-lot-trace-production-traceability-pax-as400", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Lot Trace", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/EUCData/PAX-CUS.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "Production Traceability POP CQS", "description": null, "slug": "legacy-operation-lot-trace-production-traceability-pop-cqs", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Lot Trace", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/EUCData/POPCQS/POP-CUS.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "Online Travel Sheet", "description": null, "slug": "legacy-operation-lot-trace-online-travel-sheet", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Lot Trace", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/EUCData/POPCQS/OnlineTSheet.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "Trace Testing Key", "description": null, "slug": "legacy-operation-lot-trace-trace-testing-key", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Lot Trace", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/013-TestingLotQuery_MES.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "PDA Mobile Information", "description": null, "slug": "legacy-operation-lot-trace-pda-mobile-information", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Lot Trace", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt:88/master_ver1.1/user/PDA_List.aspx", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "MQC/IQC inquiry", "description": null, "slug": "legacy-operation-lot-trace-mqc-iqc-inquiry", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Lot Trace", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/CCI_main.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "ATM Active Users ID (AD)", "description": null, "slug": "legacy-operation-lot-trace-atm-active-users-id-ad", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Lot Trace", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt:88/ActiveUserList/Login.aspx", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "OperationsPlanning", "name": "Pallet Expiry Status", "description": null, "slug": "legacy-operation-planning-pallet-expiry-status", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Planning", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/EUCData/027-Pellet_Expiry.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "OperationsPlanning", "name": "VMI Material Life Expiry Status", "description": null, "slug": "legacy-operation-planning-vmi-material-life-expiry-status", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Planning", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/EUCData/022-Material_Expiry.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "OperationsPlanning", "name": "WIP Life Expiry Status", "description": null, "slug": "legacy-operation-planning-wip-life-expiry-status", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Planning", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/EUCData/023-Lot_Expiry.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "OperationsPlanning", "name": "Pellet Free Work Order", "description": null, "slug": "legacy-operation-planning-pellet-free-work-order", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Planning", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/InputPlan/PelletFree/index.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "OperationsPlanning", "name": "Product Master Monitoring", "description": null, "slug": "legacy-operation-planning-product-master-monitoring", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Planning", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/ProductMaster/index.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "QualityManagement", "name": "Abnormal Control", "description": null, "slug": "legacy-operation-quality-abnormal-control", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Quality", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/AbnormalControl/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "QualityManagement", "name": "Statistical Process Control (SPC)", "description": null, "slug": "legacy-operation-quality-statistical-process-control-spc", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Quality", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/DekibaeMeasurement/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "QualityManagement", "name": "Process Yield Analysis", "description": null, "slug": "legacy-operation-quality-process-yield-analysis", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Quality", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/ProcessYield/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "QualityManagement", "name": "MQC/IQC Monitoring", "description": null, "slug": "legacy-operation-quality-mqc-iqc-monitoring", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Quality", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/mqciqc/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "QualityManagement", "name": "ACS Monitoring", "description": null, "slug": "legacy-operation-quality-acs-monitoring", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Quality", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt:82/ACS/ACSSummaryData_byLine.aspx", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "QualityManagement", "name": "MDR", "description": null, "slug": "legacy-operation-quality-mdr", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Quality", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://mumdrapp01.my.ds.amkor.com/sysworkflow/en/neoclassic/login/login", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "QualityManagement", "name": "SPCResult Maintenance", "description": null, "slug": "legacy-operation-quality-spcresult-maintenance", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Quality", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/spcresult_maintenance.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "PLM (Product)", "description": null, "slug": "legacy-operation-operation-plm-product", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/plm/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "CIM/MES Master Registration", "description": null, "slug": "legacy-operation-mes-capture-cim-mes-master-registration", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "MES Capture", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt:88/master_ver1.1/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "CIM/MES Lot Creation Application", "description": null, "slug": "legacy-operation-mes-capture-cim-mes-lot-creation-application", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "MES Capture", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://tem11:7000/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "CIM/MES Lot Event Application", "description": null, "slug": "legacy-operation-mes-capture-cim-mes-lot-event-application", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "MES Capture", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://tem11:8100/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "CIM/MES Lot Event Others", "description": null, "slug": "legacy-operation-mes-capture-cim-mes-lot-event-others", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "MES Capture", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mwmesapp01:83/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "MES/MRT L1 Support", "description": null, "slug": "legacy-operation-mes-capture-mes-mrt-l1-support", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "MES Capture", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mwmrtwbp01:5000/Login.aspx", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "MES Set New Password", "description": null, "slug": "legacy-operation-mes-capture-mes-set-new-password", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "MES Capture", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/SetNewPassword.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "MaintenanceManagement", "name": "M/C Operation Data", "description": null, "slug": "legacy-operation-equipment-m-c-operation-data", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Equipment", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/app_cms/index_oper.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "MaintenanceManagement", "name": "Real-time Die Part Status", "description": null, "slug": "legacy-operation-equipment-real-time-die-part-status", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Equipment", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/cms/die/index.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "OperationsPlanning", "name": "Calendar Master", "description": null, "slug": "legacy-operation-calendar-calendar-master", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Calendar", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/Calendar.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "OperationsPlanning", "name": "Customer Calendar", "description": null, "slug": "legacy-operation-calendar-customer-calendar", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": "Calendar", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt:88/CustomerCalendar/CustCal.aspx", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Operate", "group": "ProductionManagement", "name": "Operator WI", "description": null, "slug": "legacy-operation-operation-operator-wi", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Operation", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://10.40.2.42:8301/login", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "WorkforcePlanning", "name": "Phone Directory", "description": null, "slug": "legacy-people-people-phone-directory", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "People", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/PhoneDirectory.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "WorkforcePlanning", "name": "Employee Central", "description": null, "slug": "legacy-people-people-employee-central", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "People", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://performancemanager8.successfactors.com/sf/home?bplte_company=amkor&_s.crb=FuspuXZiN2PPWHjCNMU3Iw4wakjSBlxXLRTO4kcY7lk%253d#Shell-home", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Knowledge", "group": "CorporateCommunication", "name": "Events & Announcements", "description": null, "slug": "legacy-events-and-announcements-events-and-announcements-events-and-announcements", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Events & Announcements", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/event.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "LMS", "description": null, "slug": "legacy-my-learning-my-learning-lms", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://synapse.amkor.com/lms/index.php/lms_login/login/initial", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Training Record History by Employee", "description": null, "slug": "legacy-my-learning-training-records-training-record-history-by-employee", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": "Training Records", "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/byemployee.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Training Record by Department", "description": null, "slug": "legacy-my-learning-my-learning-training-record-by-department", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/bydept.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Operators Certification Tag", "description": null, "slug": "legacy-my-learning-my-learning-operators-certification-tag", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/certtag.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Technicians Certification Tag", "description": null, "slug": "legacy-my-learning-my-learning-technicians-certification-tag", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/certtagtech.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Notification of OJT not submitted / Status Checking", "description": null, "slug": "legacy-my-learning-my-learning-notification-of-ojt-not-submitted-status-checking", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/CheckCourse.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Jargon", "description": null, "slug": "legacy-my-learning-my-learning-jargon", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/jargon.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Training Requisition", "description": null, "slug": "legacy-my-learning-my-learning-training-requisition", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://iworkflows.amkor.com/iworkflow/3/index.php/go/drawer#", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Training Effectiveness Evaluation", "description": null, "slug": "legacy-my-learning-my-learning-training-effectiveness-evaluation", "is_active": true, "sort": 8, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://iworkflows.amkor.com/iworkflow/3/index.php/go/drawer#", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "EIP", "description": null, "slug": "legacy-my-learning-my-learning-eip", "is_active": true, "sort": 9, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://10.40.2.71/EIP/create", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Self Learning", "description": null, "slug": "legacy-my-learning-my-learning-self-learning", "is_active": true, "sort": 10, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/selfLearning.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "People", "group": "LearningManagement", "name": "Technician Skills Level", "description": null, "slug": "legacy-my-learning-my-learning-technician-skills-level", "is_active": true, "sort": 11, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "My Learning", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://app.powerbi.com/reportEmbed?reportId=ad114999-3b6d-4b33-b33a-852ccbad3e7c&autoAuth=true&ctid=423f5ac8-ab26-4dfa-9ebf-59d3def9fbd0", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Floor Plan", "description": null, "slug": "legacy-others-others-floor-plan", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/floorplan.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Amkor Core Values", "description": null, "slug": "legacy-others-others-amkor-core-values", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/AmkorCoreValues.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Customers", "description": null, "slug": "legacy-others-others-customers", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/customers.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Amkor Global Information", "description": null, "slug": "legacy-others-others-amkor-global-information", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/AmkorGlobalInfo/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Wiki Amkor", "description": null, "slug": "legacy-others-others-wiki-amkor", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://wiki.amkor.com/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "AmkorNet.", "description": null, "slug": "legacy-others-others-amkornet", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://amkornet.amkor.com/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Internet", "description": null, "slug": "legacy-others-others-internet", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://www.amkor.com/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Customer Information", "description": null, "slug": "legacy-others-others-customer-information", "is_active": true, "sort": 8, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/Customer/Index.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Poster Competition", "description": null, "slug": "legacy-others-others-poster-competition", "is_active": true, "sort": 9, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkor-atm.com/posterCompetition/create", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "UGP Application", "description": null, "slug": "legacy-others-others-ugp-application", "is_active": true, "sort": 10, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "Others", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkor-atm.com/recruitement/create", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "ATM Covid-19 Information", "description": null, "slug": "legacy-hamburger-hamburger-atm-covid-19-information", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "hamburger", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkor.sharepoint.com/sites/ATMCovidTFT", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Duty Manager Info", "description": null, "slug": "legacy-hamburger-hamburger-duty-manager-info", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "hamburger", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/DutyManager2.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "ATM Calendar", "description": null, "slug": "legacy-hamburger-hamburger-atm-calendar", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "hamburger", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://10.40.2.71/calendar-main", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Employee Central Login", "description": null, "slug": "legacy-hamburger-hamburger-employee-central-login", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "hamburger", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://performancemanager12.successfactors.com/login#/login", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "CIM-PDA Application Page", "description": null, "slug": "legacy-hamburger-hamburger-cim-pda-application-page", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "hamburger", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://tem11:8800/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Production Traceability Tools", "description": null, "slug": "legacy-hamburger-hamburger-production-traceability-tools", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "hamburger", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/EUCData/index.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "Online Travel Sheet", "description": null, "slug": "legacy-hamburger-hamburger-online-travel-sheet", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "hamburger", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/EUCData/POPCQS/OnlineTSheet.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Source", "group": "Community", "name": "WIP Status", "description": null, "slug": "legacy-hamburger-hamburger-wip-status", "is_active": true, "sort": 8, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "hamburger", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://mrt/wipstatus/iflexi/", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "My Tickets", "description": null, "slug": "legacy-atm-it-atm-it-my-tickets", "is_active": true, "sort": 1, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkortechprod.service-now.com/nav_to.do?uri=%2Fhome.do", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "IT DBS Dashboard", "description": null, "slug": "legacy-atm-it-atm-it-it-dbs-dashboard", "is_active": true, "sort": 2, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://urldefense.proofpoint.com/v2/url?u=https-3A__amkortechprod.service-2Dnow.com_-24dashboards.do-3Fsysparm-5Fdashboard-3D6c75c508db2468507ae6a573059619ba&d=DwMCaQ&c=_nNK1u1-D-aUAPa7o8dBp0ez6LXdUug8mK7g8onhLto&r=w72zpwYj2dHVR-zI6u5g_QbzqgZPPTjEHt91YoWKCEk&m=7DKs6GZLU1ma416uyu5D07PzmKU-9YvrqCKI16lh3bA&s=IU68Q4lwHcdMvg3MoZl1-mIQVdJGLx3AszPUZ1MQ2jI&e=", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "IT Organization", "description": null, "slug": "legacy-atm-it-atm-it-it-organization", "is_active": true, "sort": 3, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/IT_Organization.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "IT Docs Library", "description": null, "slug": "legacy-atm-it-atm-it-it-docs-library", "is_active": true, "sort": 4, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkor.sharepoint.com/sites/ATM-IT", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "IT System Monitoring", "description": null, "slug": "legacy-atm-it-atm-it-it-system-monitoring", "is_active": true, "sort": 5, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/IT_logs.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "ATM IT Guidelines", "description": null, "slug": "legacy-atm-it-atm-it-atm-it-guidelines", "is_active": true, "sort": 6, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/IT_Guidelines.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "ATM Portal Stats", "description": null, "slug": "legacy-atm-it-atm-it-atm-portal-stats", "is_active": true, "sort": 7, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/awstats/cgi-bin/awstats.pl", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "IT Training Materials", "description": null, "slug": "legacy-atm-it-atm-it-it-training-materials", "is_active": true, "sort": 8, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/ITTrainingMaterial.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "Howto", "description": null, "slug": "legacy-atm-it-atm-it-howto", "is_active": true, "sort": 9, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/IT_How_to.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "What is", "description": null, "slug": "legacy-atm-it-atm-it-what-is", "is_active": true, "sort": 10, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/IT_What_Is.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "CR Dashboard", "description": null, "slug": "legacy-atm-it-atm-it-cr-dashboard", "is_active": true, "sort": 11, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkortechprod.service-now.com/nav_to.do?uri=%2F$vtb.do%3Fsysparm_board%3D46eb97f21b215410eb16ca6f5b4bcbc5", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "Active KeyNo Status", "description": null, "slug": "legacy-atm-it-atm-it-active-keyno-status", "is_active": true, "sort": 12, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/ActiveKeyNo.asp", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "IT/FT PJ Status", "description": null, "slug": "legacy-atm-it-atm-it-it-ft-pj-status", "is_active": true, "sort": 13, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkor.sharepoint.com/:x:/r/sites/ATM-IT/_layouts/15/Doc.aspx?sourcedoc=%7B11989C74-BF40-4F94-AB00-3ADCD1CEEB80%7D&file=IT_FT%20Project%20Plan%202022.xlsx&wdLOR=cFED0CD85-2FAA-42C0-ABCE-AF330F023B84&action=default&mobileredirect=true&cid=ad714f2d-1fed-49ec-957c-21c549a1d58c&ovuser=423f5ac8-ab26-4dfa-9ebf-59d3def9fbd0%2CNurhafizah.Jamri%40amkor.com&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzA3MTMyNzExNiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "IT/FT Attendance", "description": null, "slug": "legacy-atm-it-atm-it-it-ft-attendance", "is_active": true, "sort": 14, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "https://amkor.sharepoint.com/:x:/r/sites/ATM-IT/_layouts/15/Doc.aspx?sourcedoc=%7B02D8D6D7-9B80-472A-B0A9-81CCE7676D38%7D&file=IT%20Daily%20Leave%20Status.xlsx&action=default&mobileredirect=true&wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1740367896745&web=1", "notes": "Migrated from old menu list"} ]
+        },
+        { "category": "Technology", "group": "ITServiceManagement", "name": "MES-eCIM: Check Machine Status", "description": null, "slug": "legacy-atm-it-atm-it-mes-ecim-check-machine-status", "is_active": true, "sort": 15, "icon": null, "permission": null, 
+            "attributes": { "legacy_category": "ATM IT", "legacy_subcat": null, "source": "old-menu-list"}, 
+            "versions": [ { "version": "1.0.0", "status": "released", "content_type": "url", "content_url": "http://atmportal/MES_eCIM_check_McStatus.asp", "notes": "Migrated from old menu list"} ]
+        }
+    ]
+}
