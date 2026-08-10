@@ -135,7 +135,7 @@ enum MenuGroup: string
     public static function options(): array
     {
         return collect(self::cases())
-            ->mapWithKeys(fn (self $case) => [
+            ->mapWithKeys(fn (self $case): array => [
                 $case->value => $case->label(),
             ])
             ->all();
@@ -146,10 +146,10 @@ enum MenuGroup: string
     ): array {
         return collect(self::cases())
             ->filter(
-                fn (self $group) => $group->category() === $category
+                fn (self $group): bool => $group->category() === $category
             )
             ->mapWithKeys(
-                fn (self $group) => [
+                fn (self $group): array => [
                     $group->value => $group->label(),
                 ]
             )

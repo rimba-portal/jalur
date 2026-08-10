@@ -35,11 +35,6 @@ class Menu extends Model
         'is_active' => false,
     ];
 
-    protected $casts = [
-        'attributes' => 'array',
-        'is_active' => 'boolean',
-    ];
-
     public static function seedMappings(): array
     {
         return [
@@ -56,6 +51,14 @@ class Menu extends Model
                     ->value(),
             ],
 
+        ];
+    }
+
+    protected function casts(): array
+    {
+        return [
+            'attributes' => 'array',
+            'is_active' => 'boolean',
         ];
     }
 }
