@@ -22,7 +22,7 @@ class MenuResource extends Resource
 
     protected static ?string $navigationLabel = 'Menu';
 
-    protected static ?int $navigationSort = 31;
+    protected static ?int $navigationSort = 29;
 
     protected static ?string $recordTitleAttribute = 'title';
 
