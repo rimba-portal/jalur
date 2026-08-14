@@ -24,7 +24,7 @@ class MenuResource extends Resource
 
     protected static ?int $navigationSort = 29;
 
-    protected static ?string $recordTitleAttribute = 'title';
+    protected static ?string $recordTitleAttribute = 'name';
 
     public static function table(Table $table): Table
     {
