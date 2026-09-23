@@ -25,6 +25,7 @@ class MapChannel extends BaseEscalationChannel
             ->prefixAction(
                 Action::make("map_{$name}")
                     ->icon('heroicon-m-map-pin')
+                    ->label("Click to {$config['label']}")
                     ->url($url)
                     ->openUrlInNewTab()
             )

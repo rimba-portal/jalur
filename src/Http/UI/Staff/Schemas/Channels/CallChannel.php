@@ -21,6 +21,7 @@ class CallChannel extends BaseEscalationChannel
             ->prefixAction(
                 Action::make("call_{$name}")
                     ->icon('heroicon-m-phone')
+                    ->label("Click to {$config['label']}")
                     ->url($url)
                     ->openUrlInNewTab()
             )

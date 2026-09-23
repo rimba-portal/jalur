@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rimba\Foundation\Http\UI\Staff\Pages;
+namespace Rimba\Menu\Http\UI\Staff\Pages;
 
 use BackedEnum;
 use Rimba\Base\Pages\JsonTablePage;

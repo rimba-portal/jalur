@@ -22,6 +22,7 @@ class EmailChannel extends BaseEscalationChannel
             ->prefixAction(
                 Action::make("mail_{$name}")
                     ->icon('heroicon-m-envelope')
+                    ->label("Click to {$config['label']}")
                     ->url($url)
                     ->openUrlInNewTab()
             )
