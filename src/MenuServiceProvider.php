@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Rimba\Menu;
 
+use Illuminate\Support\Facades\File;
 use Rimba\Base\Services\BitesServiceProvider;
 
 class MenuServiceProvider extends BitesServiceProvider
