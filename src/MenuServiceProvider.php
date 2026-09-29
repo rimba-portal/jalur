@@ -9,6 +9,8 @@ use Rimba\Base\Services\BitesServiceProvider;
 
 class MenuServiceProvider extends BitesServiceProvider
 {
+    protected string $viewsPath = __DIR__.'/../resources/views';
+
     protected string $iconsPath = __DIR__.'/../resources/svg';
 
     protected function bootPackage(): void
@@ -16,7 +18,6 @@ class MenuServiceProvider extends BitesServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         $this->publishes([__DIR__.'/../setup' => storage_path('setup')], 'menu-setup');
         $this->ensureSetupFilesExist();
-
     }
 
     protected function registerPackage(): void

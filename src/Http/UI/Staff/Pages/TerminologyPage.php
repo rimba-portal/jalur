@@ -19,7 +19,7 @@ use Rimba\Base\Support\JsonFilesManager;
 use Throwable;
 use UnitEnum;
 
-class ToolsPage extends Page implements HasTable
+class TerminologyPage extends Page implements HasTable
 {
     use InteractsWithTable;
 
