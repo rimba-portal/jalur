@@ -6,6 +6,8 @@ namespace Rimba\Menu\Http\UI\Admin\Pages;
 
 use BackedEnum;
 use Filament\Actions\Action;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 use Filament\Schemas\Components\Callout;
@@ -233,21 +235,49 @@ class ManageSystemsPage extends Page implements HasTable
                         ->active()
                 )
             )
-            ->recordUrl(
-                fn (array $record): ?string => $record['url_origin'] ?? null
-            )
-            ->openRecordUrlInNewTab()
             ->columns([
+                TextColumn::make('url_origin')->label('System'),
+                TextColumn::make('name')->searchable(),
+                TextColumn::make('description')->wrap(),
 
-                TextColumn::make('name')
-                    ->searchable(),
+            ])
+            ->recordActions([
+                // This replaces recordUrl and safely triggers a modal overlay
+                Action::make('edit')
+                    ->label('Edit')
+                    ->icon('heroicon-o-pencil-square')
+                    ->color('warning')
+                    ->mountUsing(fn ($form, array $record) => $form->fill($record))
+                    ->form([
+                        TextInput::make('name')
+                            ->disabled(),
 
-                TextColumn::make('description')
-                    ->wrap(),
+                        Textarea::make('description'),
 
-                TextColumn::make('url_origin')
-                    ->label('System'),
+                        TextInput::make('url_origin')
+                            ->label('System URL')
+                            ->disabled()
+                            ->url(),
+                    ])
+                    ->action(function (array $data, array $record): void {
+                        try {
+                            // TODO: Call your custom Repository update logic here
+                            // e.g., app(SystemRepository::class)->update($record['id'], $data);
 
+                            $this->refreshData();
+
+                            Notification::make()
+                                ->title('System updated successfully')
+                                ->success()
+                                ->send();
+                        } catch (Throwable $throwable) {
+                            report($throwable);
+                            Notification::make()
+                                ->title('Update failed')
+                                ->danger()
+                                ->send();
+                        }
+                    }),
             ]);
     }
 

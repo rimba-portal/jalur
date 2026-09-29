@@ -26,9 +26,9 @@ class SystemsPage extends Page implements HasTable
 
     protected static ?string $navigationLabel = 'Application';
 
-    protected static ?int $navigationSort = 10;
+    protected static ?int $navigationSort = 23;
 
-    protected static string|UnitEnum|null $navigationGroup = 'Systems';
+    protected static string|UnitEnum|null $navigationGroup = 'Catalog';
 
     protected static string|BackedEnum|null $navigationIcon = 'bites-softwares';
 
