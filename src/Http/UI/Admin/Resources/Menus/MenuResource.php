@@ -1,17 +1,27 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Rimba\Menu\Http\UI\Admin\Resources\Menus;
 
 use BackedEnum;
-use UnitEnum;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
-use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\CreateMenu;
+use Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\EditMenu;
+use Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\ListMenus;
+use Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\ViewMenu;
+use Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuForm;
+use Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuInfolist;
+use Rimba\Menu\Http\UI\Admin\Resources\Menus\Tables\MenusTable;
+use Rimba\Menu\Models\Menu;
+use Rimba\Versioning\Http\UI\Admin\Resources\Versions\RelationManagers\VersionsRelationManager;
+use UnitEnum;
 
 class MenuResource extends Resource
 {
-    protected static ?string $model = \Rimba\Menu\Models\Menu::class;
+    protected static ?string $model = Menu::class;
 
     protected static string|UnitEnum|null $navigationGroup = 'Menu';
 
@@ -21,26 +31,35 @@ class MenuResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name';
 
-    public static function form(Schema $schema): Schema { return \Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuForm::configure($schema); }
+    public static function form(Schema $schema): Schema
+    {
+        return MenuForm::configure($schema);
+    }
 
-    public static function infolist(Schema $schema): Schema { return \Rimba\Menu\Http\UI\Admin\Resources\Menus\Schemas\MenuInfolist::configure($schema); }
+    public static function infolist(Schema $schema): Schema
+    {
+        return MenuInfolist::configure($schema);
+    }
 
-    public static function table(Table $table): Table { return \Rimba\Menu\Http\UI\Admin\Resources\Menus\Tables\MenusTable::configure($table); }
+    public static function table(Table $table): Table
+    {
+        return MenusTable::configure($table);
+    }
 
-    public static function getRelations(): array 
-    { 
-        return [ 
-            \Rimba\Versioning\Http\UI\Admin\Resources\Versions\RelationManagers\VersionsRelationManager::class, 
+    public static function getRelations(): array
+    {
+        return [
+            VersionsRelationManager::class,
         ];
     }
 
     public static function getPages(): array
     {
         return [
-            'index' => \Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\ListMenus::route('/'),
-             'create' => \Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\CreateMenu::route('/create'),
-             'view' => \Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\ViewMenu::route('/{record}'),
-             'edit' => \Rimba\Menu\Http\UI\Admin\Resources\Menus\Pages\EditMenu::route('/{record}/edit'),
+            'index' => ListMenus::route('/'),
+            'create' => CreateMenu::route('/create'),
+            'view' => ViewMenu::route('/{record}'),
+            'edit' => EditMenu::route('/{record}/edit'),
             //
         ];
     }
