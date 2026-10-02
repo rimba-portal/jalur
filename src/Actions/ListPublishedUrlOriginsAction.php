@@ -88,7 +88,7 @@ class ListPublishedUrlOriginsAction
         ?Model $model
     ): array {
 
-        if (! $model) {
+        if (! $model instanceof Model) {
             return [
                 'name' => null,
                 'description' => null,
