@@ -8,7 +8,7 @@ class EscalationDataLoader
 {
     public function load(): array
     {
-        $file = storage_path('app/private/escalation.json');
+        $file = storage_path('setup/json/escalation.json');
 
         if (! file_exists($file)) {
             return [];
