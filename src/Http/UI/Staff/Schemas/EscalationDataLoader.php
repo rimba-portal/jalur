@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace Rimba\Menu\Http\UI\Staff\Schemas;
 
+use Illuminate\Support\Facades\Storage;
+
 class EscalationDataLoader
 {
     public function load(): array
     {
-        $file = storage_path('setup/json/escalation.json');
+        $file = Storage::disk('local')->get('feed/escalation.json');
 
         if (! file_exists($file)) {
             return [];
